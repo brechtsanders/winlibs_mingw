@@ -9,9 +9,11 @@ Additional tools are added to this build including:
 - GNU Binutils
 - GNU Make
 
-The i686 download is the 32-bit version, which runs natively on and compiles for Windows 32-bit (of course it also runs on 64-bit).
+Binary downloads are available for Windows only:
+- The i686 download is the 32-bit version, which runs natively on and compiles for Windows 32-bit (of course it also runs on 64-bit).
+- The x86_64 download is the 64-bit version, which runs natively on and compiles for Windows 64-bit.
 
-The x86_64 download is the 64-bit version, which runs natively on and compiles for Windows 64-bit.
+Each build is built with itself, so optimizations included in newer GCC versions are also compiled into the compiler itself.
 
 The ultimate goal of winlibs is to also provide libraries built with this compiler, in order to provide a comprehensive C/C++ development environment, with the following goals in mind:
 - provide both static and shared libraries where possible
